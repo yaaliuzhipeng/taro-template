@@ -6,7 +6,7 @@ const Home = (props) => {
 
 	return (
 		<Page style={[fxs.c]}>
-			<Text style={{ display: 'flex', color: '#000', fontSize: 20 }}>当前页面是: 首页</Text>
+			<Text style={{ display: 'flex', color: '#000', fontSize: 20 }}>当前页面是: 发现</Text>
 		</Page>
 	)
 }

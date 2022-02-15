@@ -7,7 +7,7 @@ interface ViewProps extends Omit<TRViewProps,'style'> {
     children?:any;
     style?: React.CSSProperties | React.CSSProperties[];
 }
-const DefaultFlexStyle = {display:'flex',flex:1,flexDirection:'column',boxSizing: 'border-box'};
+const DefaultFlexStyle = {display:'flex',flexDirection:'column',boxSizing: 'border-box'};
 const View = (props:ViewProps) => {
 
     const {style,children} = props;

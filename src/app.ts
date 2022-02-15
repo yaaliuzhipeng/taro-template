@@ -1,21 +1,10 @@
 import './powpow';
-import { Component } from 'react';
-import './app.css'
+import React from 'react';
 
-class App extends Component {
-
-  componentDidMount () {}
-
-  componentDidShow () {}
-
-  componentDidHide () {}
-
-  componentDidCatchError () {}
+const App = (props:any) => {
 
   // this.props.children 是将要会渲染的页面
-  render () {
-    return this.props.children
-  }
+  return props.children
 }
 
 export default App

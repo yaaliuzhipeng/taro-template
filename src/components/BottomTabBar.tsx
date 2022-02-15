@@ -34,7 +34,7 @@ const TabBarItem = React.memo((props: {
                     style={{...styles.icon,display: active ? 'flex' : 'none'}}
                 />
             </View>
-            <Text style={{ display:'flex',fontSize: 13, color: active ? '#2c2c2c' : '#cdcdcd' }}>
+            <Text style={{ display:'flex',fontSize: 12, color: active ? '#2c2c2c' : '#cdcdcd' }}>
                 {label}
             </Text>
         </View>
@@ -99,8 +99,9 @@ const styles = StyleSheet.create({
         display: 'flex',
         flexDirection:'column',
         justifyContent:'flex-end',
-        height: 30,
-        width: 30,
+        alignItems:'center',
+        height: 35,
+        width: 35,
         paddingBottom:2,
         position: 'relative'
     }
